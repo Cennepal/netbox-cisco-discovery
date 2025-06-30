@@ -13,7 +13,7 @@ It's documented in german so either you know the language or you figure it out o
 - Supports updating changed cable terminations
 
 # Why do I need this?
-Again, I'm not selling crack. So how should I know? But do be aware that this only works on IOS devices and that I hardcoded it to use /24 subnets because at some point I couldn't be bothered to implement how to get the subnet of an IP. (I tried with ipaddress, but it returned the wrong cidr)
+I'm not selling crack, yet again, so how would I know? But do be aware that this only works on IOS devices and that I hardcoded it to use /24 subnets because at some point I couldn't be bothered to implement how to get the subnet of an IP. (Got too burnt out to care, plus all my nets are /24, so I gave up on it.)
 
 # Netbox 4.x.x?
 I can confirm it works on 4.3.2.
@@ -21,11 +21,8 @@ I can confirm it works on 4.3.2.
 # Hey, isn't this a worse version of NB Diode?
 Yes, but this was made before Diode came out. Plus, cloud-subscriptions make my skin crawl.
 
-# VLSM Subnets?
-Nope, this thing only supports big ol' /24 and nothing else.
-
 # Docker?
-Have fun!
+Have fun! (Other than having to make your own container for the Netbox stack, the script already supports logging and pulling preset env variables)
 
 # Nom Nom, give me dependencies!
 Fine:
