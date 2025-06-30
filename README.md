@@ -4,6 +4,7 @@ It's documented in german so either you know the language or you figure it out o
 - Automatic device testbed creation with device creator script (Check version notes)
 - Neighbouring device recognition and creation via cdp
 - Device type, role and platform auto creation
+- OS and Version recognition (Add 'OS' and 'Version' custom fields to devices)
 - Automatic interface recognition and creation
 - Automatic cable creation, again via cdp
 - Inventory parsing and updates
