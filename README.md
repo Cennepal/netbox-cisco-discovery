@@ -21,6 +21,9 @@ I can confirm it works on 4.3.2.
 # Hey, isn't this a worse version of NB Diode?
 Yes, but this was made before Diode came out. Plus, cloud-subscriptions make my skin crawl.
 
+# VLSM Subnets?
+Nope, this thing only supports big ol' /24 and nothing else.
+
 # Docker?
 Have fun!
 
