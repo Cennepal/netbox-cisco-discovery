@@ -10,14 +10,14 @@ It's documented in german so either you know the language or you figure it out o
 - Inventory parsing and updates
 - SFP Module Parsing and updates
 - Stack recognition and support
-- Supports IOS, IOS-XE and maybe NX-OS in the future
+- Supports IOS, IOS-XE and as of now also NX-OS!
 - Supports updating changed cable terminations
 
 # Why do I need this?
 I'm not selling crack, yet again, so how would I know? But do be aware that this only works on IOS devices and that I hardcoded it to use /24 subnets because at some point I couldn't be bothered to implement how to get the subnet of an IP. (Got too burnt out to care, plus all my nets are /24, so I gave up on it.)
 
 # Netbox 4.x.x?
-I can confirm it works on 4.3.2.
+I can confirm it works on 4.3.4.
 
 # Hey, isn't this a worse version of NB Diode?
 Yes, but this was made before Diode came out. Plus, cloud-subscriptions make my skin crawl.
