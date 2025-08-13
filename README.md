@@ -20,7 +20,7 @@ It's documented in german so either you know the language or you figure it out o
 - You can find all the configurable environment options in `config.py`, they can be read from either the `.env`-file or by having the variables set on the system beforehand, for example in docker.
 
 # Why do I need this?
-I'm not selling crack, yet again, so how would I know? But do be aware that this only works on IOS devices and that I hardcoded it to use /24 subnets because at some point I couldn't be bothered to implement how to get the subnet of an IP. (Got too burnt out to care, plus all my nets are /24, so I gave up on it.)
+I'm not selling crack, yet again, so how would I know? But do be aware that this only works on Cisco devices and that I hardcoded it to use /24 subnets because at some point I couldn't be bothered to implement how to get the subnet of an IP. (Got too burnt out to care, plus all my nets are /24, so I gave up on it.)
 
 # Netbox 4.x.x?
 I can confirm it works on 4.3.4.
