@@ -16,7 +16,7 @@ It's documented in german so either you know the language or you figure it out o
 # What where?
 - The device maker script is a netbox plugin you can import and use to create dummy devices which will then be picked up by the scanner
 - Everything else is the scanner script, so please keep them in one directory
-- Yes, ´netbox_cisco_discovery.py´ is the main script to execute
+- Yes, `netbox_cisco_discovery.py` is the main script to execute
 - You can find all the configurable environment options in `config.py`, they can be read from either the `.env`-file or by having the variables set on the system beforehand, for example in docker.
 
 # Why do I need this?
